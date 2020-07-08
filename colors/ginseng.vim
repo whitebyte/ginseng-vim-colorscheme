@@ -6,12 +6,6 @@ endif
 
 let g:colors_name = "ginseng"
 
-" TODO
-" let s:nefertiti_dynamic_colors["pythonExClass"]     = [ [0x99, 0x76, 0x76], [], "guibg=NONE gui=NONE" ]
-" let s:nefertiti_dynamic_colors["pythonDecorator"]   = [ [0x88, 0x77, 0x44], [], "guibg=NONE gui=NONE" ]
-" }}}2
-" let s:_nefertiti_search_highlight_intensity_highlight_map = ["333333", "555555", "666660", "aaaa99", "ddddbb", "ffffbb", "ffffff", "ff00ff"]
-
 hi Normal           guifg=#ddd6c0   guibg=#2c2824   gui=NONE
 hi NonText          guifg=#666046   guibg=bg        gui=NONE
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic
@@ -96,6 +90,7 @@ hi Directory        guifg=#ddaa66   guibg=bg        gui=NONE
 hi MatchParen       guifg=#fff000   guibg=bg        gui=bold
 hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
+
 """ Special Syntax {{{4
 hi link pythonDecoratorFunction pythonDecorator
 """ }}}4
