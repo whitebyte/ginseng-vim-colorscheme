@@ -76,7 +76,7 @@ hi SpellRare        guisp=#ff00ff   gui=undercurl
 
 """ Diff {{{4
 hi DiffAdd          guibg=#374229   gui=NONE
-hi DiffDelete       guibg=#521800   gui=NONE
+hi DiffDelete       guibg=#880500   guifg=NONE gui=NONE
 hi DiffChange       guibg=#663300   gui=NONE
 hi DiffText         guibg=#995500   guifg=#eeaa00 gui=NONE
 
