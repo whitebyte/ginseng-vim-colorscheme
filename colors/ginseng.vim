@@ -78,7 +78,7 @@ hi SpellRare        guisp=#ff00ff   gui=undercurl
 hi DiffAdd          guibg=#374229   gui=NONE
 hi DiffDelete       guibg=#880500   guifg=NONE gui=NONE
 hi DiffChange       guibg=#663300   gui=NONE
-hi DiffText         guibg=#995500   guifg=#eeaa00 gui=NONE
+hi DiffText         guibg=#aa6600   guifg=#f0af00 gui=NONE
 
 hi diffAdded        guibg=#374229   gui=NONE
 hi diffRemoved      guibg=#521800   gui=NONE
