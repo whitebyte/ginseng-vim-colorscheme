@@ -104,4 +104,4 @@ hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
 " LspDiagnosticsUnderlineHint
 
 """ TreeSitter
-hl TSCurrentScope guifg=#48403a gui=NONE
+hi! TSCurrentScope NormalInactive
