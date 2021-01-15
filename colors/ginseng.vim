@@ -94,3 +94,12 @@ hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 """ Special Syntax {{{4
 hi link pythonDecoratorFunction pythonDecorator
 """ }}}4
+
+
+""" LSP
+hi LspDiagnosticsUnderlineError guifg=#ee2c2c gui=undercurl
+hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
+" TODO
+" LspDiagnosticsUnderlineInformation
+" LspDiagnosticsUnderlineHint
+
