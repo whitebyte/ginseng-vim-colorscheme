@@ -7,6 +7,7 @@ endif
 let g:colors_name = "ginseng"
 
 hi Normal           guifg=#ddd6c0   guibg=#2c2824   gui=NONE
+hi NormalInactive   guifg=#ddd6c0   guibg=#292725   gui=NONE
 hi NonText          guifg=#666046   guibg=bg        gui=NONE
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic
 hi Comment          guifg=#707070                   gui=italic
