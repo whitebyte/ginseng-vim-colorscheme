@@ -93,10 +93,10 @@ hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 
 """ Intent guides
-hi IndentBlanklineChar                  guifg=#444444   guibg=bg    gui=NONE
-hi IndentBlanklineSpaceChar             guifg=#444444   guibg=bg    gui=NONE
-hi IndentBlanklineSpaceCharBlankline    guifg=#444444   guibg=bg    gui=NONE
-hi IndentBlanklineContextChar           guifg=#87ceeb   guibg=bg    gui=NONE
+hi IndentBlanklineChar                  guifg=#444444   guibg=bg    gui=nocombine
+hi IndentBlanklineSpaceChar             guifg=#444444   guibg=bg    gui=nocombine
+hi IndentBlanklineSpaceCharBlankline    guifg=#444444   guibg=bg    gui=nocombine
+hi IndentBlanklineContextChar           guifg=#87ceeb   guibg=bg    gui=nocombine
 
 
 """ LSP
