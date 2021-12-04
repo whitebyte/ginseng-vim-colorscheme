@@ -92,6 +92,10 @@ hi MatchParen       guifg=#fff000   guibg=bg        gui=bold
 hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 
+""" Intent guides
+hi IndentBlanklineIndent1 guifg=#282828   guibg=bg        gui=nocombine
+hi IndentBlanklineIndent2 guifg=#87ceeb   guibg=bg        gui=nocombine
+
 
 """ LSP
 hi LspDiagnosticsUnderlineError guifg=#ee2c2c gui=undercurl
