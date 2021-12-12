@@ -20,10 +20,11 @@ hi Statement        guifg=#909a9f                   gui=NONE
 hi Keyword          guifg=#909a9f                   gui=NONE
 hi Constant         guifg=#ff9800                   gui=NONE
 hi Number           guifg=#cc8800                   gui=NONE
-hi Special          guifg=#719611                   gui=NONE
+hi Special          guifg=#719a11                   gui=NONE
 hi PreProc          guifg=#bbaa88                   gui=NONE
 hi Title            guifg=#778888                   gui=NONE
-hi Todo             guifg=#8f6f8f   guibg=#202020   gui=italic,underline,bold
+hi Todo             guifg=#917191   guibg=#202020   gui=italic,underline,bold
+
 
 """ Cursor {{{4
 hi Cursor           guifg=NONE      guibg=#626262   gui=NONE
