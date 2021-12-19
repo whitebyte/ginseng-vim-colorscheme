@@ -94,9 +94,9 @@ hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 
 """ Intent guides
-hi IndentBlanklineChar                  guifg=#444444       gui=nocombine
-hi IndentBlanklineSpaceChar             guifg=#444444       gui=nocombine
-hi IndentBlanklineSpaceCharBlankline    guifg=#444444       gui=nocombine
+hi IndentBlanklineChar                  guifg=#404040       gui=nocombine
+hi IndentBlanklineSpaceChar             guifg=#404040       gui=nocombine
+hi IndentBlanklineSpaceCharBlankline    guifg=#404040       gui=nocombine
 hi IndentBlanklineContextChar           guifg=#777777
 
 
