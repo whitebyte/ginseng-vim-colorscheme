@@ -14,7 +14,7 @@ hi Comment          guifg=#707070                   gui=italic
 hi Boolean          guifg=#ff9800                   gui=NONE
 hi String           guifg=#aaaa99                   gui=NONE
 hi Identifier       guifg=#998877                   gui=NONE
-hi Function         guifg=#ffeeaa                   gui=NONE
+hi Function         guifg=#f6ecac                   gui=NONE
 hi Type             guifg=#996644                   gui=NONE
 hi Statement        guifg=#909a9f                   gui=NONE
 hi Keyword          guifg=#909a9f                   gui=NONE
