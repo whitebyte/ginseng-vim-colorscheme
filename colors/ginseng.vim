@@ -6,7 +6,7 @@ endif
 
 let g:colors_name = "ginseng"
 
-hi Normal           guifg=#ddd6c0   guibg=#282420   gui=NONE
+hi Normal           guifg=#ddd6c0   guibg=#262618   gui=NONE
 hi NormalNC         guifg=NONE      guibg=#202020   gui=NONE
 hi NonText          guifg=#666046   guibg=bg        gui=NONE
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic
@@ -14,7 +14,7 @@ hi Comment          guifg=#707070                   gui=italic
 hi Boolean          guifg=#ff9800                   gui=NONE
 hi String           guifg=#aaaa99                   gui=NONE
 hi Identifier       guifg=#998877                   gui=NONE
-hi Function         guifg=#ffeeca                   gui=NONE
+hi Function         guifg=#ffeea8                   gui=NONE
 hi Type             guifg=#996644                   gui=NONE
 hi Statement        guifg=#909a9f                   gui=NONE
 hi Keyword          guifg=#909a9f                   gui=NONE
