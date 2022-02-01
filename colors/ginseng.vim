@@ -6,7 +6,7 @@ endif
 
 let g:colors_name = "ginseng"
 
-hi Normal           guifg=#ddd6c0   guibg=#262618   gui=NONE
+hi Normal           guifg=#ddd6c0   guibg=#262218   gui=NONE
 hi NormalNC         guifg=NONE      guibg=#202020   gui=NONE
 hi NonText          guifg=#666046   guibg=bg        gui=NONE
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic
