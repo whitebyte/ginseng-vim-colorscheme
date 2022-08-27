@@ -13,7 +13,7 @@ hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end 
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic  "line used for closed folds
 hi Comment          guifg=#707070                   gui=italic  "any comment
 
-hi Boolean          guifg=#ff9800                   gui=NONE    "
+hi Boolean          guifg=#ff9800                   gui=NONE
 hi String           guifg=#aaaa99                   gui=NONE
 hi Identifier       guifg=#998877                   gui=NONE
 hi Function         guifg=#f0c468                   gui=NONE
@@ -37,7 +37,7 @@ hi cCursor          gui=reverse
 hi CursorColumn     guibg=#000000
 hi CursorLine       guibg=#000000
 hi CursorLineNr     guifg=#ffee99   guibg=bg        gui=none
-hi ColorColumn      guibg=#383535
+hi ColorColumn                      guibg=#262626               ctermbg=NONE
 
 " Structural
 hi LineNr           guifg=#807060   guibg=#000000   gui=NONE
@@ -46,6 +46,7 @@ hi StatusLine       guifg=#000000   guibg=#9d9080   gui=bold
 hi StatusLineNC     guifg=#000000   guibg=#48403a   gui=italic
 hi VertSplit        guifg=#48403a   guibg=#48403a   gui=NONE
 hi FoldColumn       guifg=#68838b   guibg=#4B4B4B   gui=bold
+hi EndOfBuffer                      guibg=NONE                  ctermbg=NONE
 
 " Tabs
 hi TabLine          guifg=#ddd6c0   guibg=#9d9080   gui=NONE
