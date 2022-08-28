@@ -8,7 +8,7 @@ let g:colors_name = "ginseng"
 
 hi Normal           guifg=#ddd6c0   guibg=#201814   gui=NONE    "normal text
 hi NormalFloat      guifg=#bbb490   guibg=#201814   gui=NONE    "normal text in floating windows
-hi NormalNC         guifg=NONE      guibg=#161614   gui=NONE    "normal text in non-current windows
+hi NormalNC         guifg=NONE      guibg=#161612   gui=NONE    "normal text in non-current windows
 hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl!-EndOfBuffer|
 hi Folded           guifg=#888078   guibg=#3c3434   gui=italic  "line used for closed folds
 hi Comment          guifg=#707070                   gui=italic  "any comment
