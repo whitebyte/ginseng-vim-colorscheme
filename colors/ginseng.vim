@@ -28,8 +28,8 @@ hi Statement        guifg=#8898b2                   gui=NONE
 hi Keyword          guifg=#8898b2                   gui=NONE
 hi Constant         guifg=#ffa000                   gui=NONE
 
-hi Error            guifg=#cc0000 guibg=#ffffff     gui=reverse cterm=reverse
-hi ErrorMsg         guifg=#cc0000 guibg=#ffffff     gui=reverse cterm=reverse
+hi Error            guifg=#aa0000 guibg=#ffffff     gui=reverse cterm=reverse
+hi ErrorMsg         guifg=#aa0000 guibg=#ffffff     gui=reverse cterm=reverse
 
 hi Special          guifg=#68a208                   gui=NONE
 hi PreProc          guifg=#bbaa88                   gui=NONE
@@ -40,10 +40,10 @@ hi Cursor           guifg=NONE      guibg=#626262   gui=NONE
 hi nCursor          guifg=black     guibg=green1    gui=NONE
 hi vCursor          guifg=black     guibg=magenta   gui=NONE
 hi iCursor          guifg=black     guibg=#f08080   gui=NONE
-hi cCursor          gui=reverse
+hi cCursor                                          gui=reverse
 
-hi CursorColumn     guibg=#000000
-hi CursorLine       guibg=#000000
+hi CursorColumn                     guibg=#000000
+hi CursorLine                       guibg=#000000
 hi CursorLineNr     guifg=#ffee99   guibg=bg        gui=none
 hi ColorColumn                      guibg=#262626               ctermbg=NONE
 
@@ -85,11 +85,12 @@ hi SpellLocal       guisp=#008b8b   gui=undercurl
 hi SpellRare        guisp=#ff00ff   gui=undercurl
 
 " Diff
-hi DiffAdd          guibg=#374229   gui=NONE
-hi DiffDelete       guibg=#7a0400   guifg=#7a0400 gui=NONE
-hi DiffChange       guibg=#663300   gui=NONE
-hi DiffText         guibg=#aa6600   guifg=#f0af00 gui=NONE
+hi DiffAdd                          guibg=#374229   gui=NONE
+hi DiffDelete       guifg=#7a0400   guibg=#7a0400   gui=NONE
+hi DiffChange                       guibg=#282828   gui=NONE
+hi DiffText         guifg=#ddd6c0   guibg=#585652   gui=NONE
 
+" Diff - fugitive
 hi diffAdded        guibg=#374229   gui=NONE
 hi diffRemoved      guibg=#521800   gui=NONE
 
