@@ -85,10 +85,10 @@ hi SpellLocal       guisp=#008b8b   gui=undercurl
 hi SpellRare        guisp=#ff00ff   gui=undercurl
 
 " Diff
-hi DiffAdd                          guibg=#364628   gui=NONE
+hi DiffAdd                          guibg=#344828   gui=NONE
 hi DiffDelete       guifg=#7a0400   guibg=#8a0400   gui=NONE
-hi DiffChange                       guibg=#222244   gui=NONE
-hi DiffText                         guibg=#244468   gui=NONE
+hi DiffChange                       guibg=#222448   gui=NONE
+hi DiffText                         guibg=#244472   gui=NONE
 
 " Diff - fugitive
 hi diffAdded        guibg=#374229   gui=NONE
