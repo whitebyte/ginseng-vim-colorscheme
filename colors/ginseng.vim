@@ -12,7 +12,7 @@ hi NormalFloat      guifg=#bbb490   guibg=#383632   gui=NONE    "normal text in 
 hi NormalNC         guifg=NONE      guibg=#080804   gui=NONE    "normal text in non-current windows
 hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl!-EndOfBuffer|
 hi Folded           guifg=#aaaaaa   guibg=#3c3434   gui=italic  "line used for closed folds
-hi Comment          guifg=#686868                   gui=italic  "any comment
+hi Comment          guifg=#727272                   gui=italic  "any comment
 
 hi String           guifg=#adadad                   gui=NONE
 hi Character        guifg=#adadad                   gui=NONE
@@ -88,7 +88,7 @@ hi SpellRare        guisp=#ff00ff   gui=undercurl
 hi DiffAdd                          guibg=#374229   gui=NONE
 hi DiffDelete       guifg=#7a0400   guibg=#7a0400   gui=NONE
 hi DiffChange                       guibg=#222222   gui=NONE
-hi DiffText                         guibg=#444444   gui=NONE
+hi DiffText                         guibg=#244464   gui=NONE
 
 " Diff - fugitive
 hi diffAdded        guibg=#374229   gui=NONE
