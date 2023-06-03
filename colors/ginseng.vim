@@ -106,6 +106,10 @@ hi IndentBlanklineSpaceChar             guifg=#323232       gui=nocombine
 hi IndentBlanklineSpaceCharBlankline    guifg=#323232       gui=nocombine
 hi IndentBlanklineContextChar           guifg=#606060       gui=nocombine
 
+" Terminal
+
+hi TermCursor       guifg=#ffffff
+
 
 """ LSP
 hi LspDiagnosticsUnderlineError guifg=#ee2c2c gui=undercurl
