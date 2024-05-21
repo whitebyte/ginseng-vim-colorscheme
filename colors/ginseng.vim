@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "ginseng"
 
-hi Normal           guifg=#ddd6c0   guibg=#181612   gui=NONE    "normal text
+hi Normal           guifg=#ddd6c0   guibg=#161410   gui=NONE    "normal text
 hi NormalFloat      guifg=#bbb490   guibg=#383632   gui=NONE    "normal text in floating windows
 hi NormalNC         guifg=NONE      guibg=#080804   gui=NONE    "normal text in non-current windows
 hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl!-EndOfBuffer|
