@@ -7,11 +7,11 @@ endif
 
 let g:colors_name = "ginseng"
 
-hi Normal           guifg=#ddd6c0   guibg=#161410   gui=NONE    "normal text
-hi NormalFloat      guifg=#bbb490   guibg=#383632   gui=NONE    "normal text in floating windows
+hi Normal           guifg=#ddd6c0   guibg=#141208   gui=NONE    "normal text
+hi NormalFloat      guifg=#bbb490   guibg=#303030   gui=NONE    "normal text in floating windows
 hi NormalNC         guifg=NONE      guibg=#080804   gui=NONE    "normal text in non-current windows
 hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl!-EndOfBuffer|
-hi Folded           guifg=#aaaaaa   guibg=#3c3434   gui=italic  "line used for closed folds
+hi Folded           guifg=#aaaaaa   guibg=#3a3232   gui=italic  "line used for closed folds
 hi Comment          guifg=#787878                   gui=italic  "any comment
 
 hi String           guifg=#aeaeae                   gui=NONE
@@ -101,13 +101,12 @@ hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 
 " Indent guides
-hi IndentBlanklineChar                  guifg=#323232       gui=nocombine
-hi IndentBlanklineSpaceChar             guifg=#323232       gui=nocombine
-hi IndentBlanklineSpaceCharBlankline    guifg=#323232       gui=nocombine
+hi IndentBlanklineChar                  guifg=#303030       gui=nocombine
+hi IndentBlanklineSpaceChar             guifg=#303030       gui=nocombine
+hi IndentBlanklineSpaceCharBlankline    guifg=#303030       gui=nocombine
 hi IndentBlanklineContextChar           guifg=#606060       gui=nocombine
 
 " Terminal
-
 hi TermCursor       guifg=#ffffff   gui=reverse
 
 
@@ -122,4 +121,4 @@ hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
 hi link TSCurrentScope NormalInactive
 
 " VirtColumn
-hi VirtColumn       guifg=#323232
+hi VirtColumn       guifg=#303030
