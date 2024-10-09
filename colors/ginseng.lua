@@ -13,6 +13,7 @@ local hi = function(name, val)
 end
 
 local colors = {
+    black   = "#000000",
     beige1  = "#ddd6c0",
     beige2  = "#bbb490",
     beige3  = "#998877",
@@ -23,12 +24,16 @@ local colors = {
     grey4   = "#141208",
     orange1 = "#df8800",
     orange2 = "#ff9800",
+    yellow1 = "#ffffbb",
     copper  = "#ad5640",
     steel   = "#8898b2"
 }
 
 hi('Normal',          { fg = colors.beige1, bg = colors.grey4 });
-hi('Comment',         { fg = colors.grey1 });
+hi('Comment',         { fg = colors.grey2 });
+
+hi('Search',          { fg = colors.orange1 });
+hi('IncSearch',       { fg = colors.yellow1 });
 
 hi('String',          { fg = colors.grey1 });
 hi('Character',       { fg = colors.grey1 });
@@ -42,6 +47,9 @@ hi('Keyword',         { fg = colors.steel });
 
 hi('Identifier',      { fg = colors.beige3 });
 hi('Function',        { fg = colors.orange1 });
+
+hi('CursorLine',      { bg = colors.black });
+hi('CursorColumn',    { bg = colors.black });
 
 hi('@tag',            { fg = colors.steel });
 hi('@tag.attribute',  { fg = colors.copper });
