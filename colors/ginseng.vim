@@ -121,6 +121,7 @@ hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
 "hi link TSCurrentScope NormalInactive
 
 hi @tag guifg=#8898b2   gui=NONE
+hi @tag.attribute guifg=#ad5640   gui=NONE
 
 " VirtColumn
 hi VirtColumn       guifg=#303032
