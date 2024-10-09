@@ -90,25 +90,14 @@ hi DiffDelete       guifg=#7a0400   guibg=#840400   gui=NONE
 hi DiffChange                       guibg=#222860   gui=NONE
 hi DiffText                         guibg=#244486   gui=NONE
 
-" Diff - fugitive
-hi diffAdded        guibg=#374229   gui=NONE
-hi diffRemoved      guibg=#521800   gui=NONE
-
 " Other
 hi Directory        guifg=#ddaa66   guibg=bg        gui=NONE
 hi MatchParen       guifg=#eee000   guibg=bg        gui=bold
 hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
 hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
 
-" Indent guides
-hi IndentBlanklineChar                  guifg=#303032       gui=nocombine
-hi IndentBlanklineSpaceChar             guifg=#303032       gui=nocombine
-hi IndentBlanklineSpaceCharBlankline    guifg=#303032       gui=nocombine
-hi IndentBlanklineContextChar           guifg=#606060       gui=nocombine
-
 " Terminal
 hi TermCursor       guifg=#ffffff   gui=reverse
-
 
 """ LSP
 hi LspDiagnosticsUnderlineError guifg=#ee2c2c gui=undercurl
@@ -120,8 +109,20 @@ hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
 """ TreeSitter
 "hi link TSCurrentScope NormalInactive
 
+""" HTML
 hi @tag guifg=#8898b2   gui=NONE
 hi @tag.attribute guifg=#ad5640   gui=NONE
 
 " VirtColumn
 hi VirtColumn       guifg=#303032
+
+" Diff - fugitive
+hi diffAdded        guibg=#374229   gui=NONE
+hi diffRemoved      guibg=#521800   gui=NONE
+
+" Indent guides
+hi IblIndent                  guifg=#303032       gui=nocombine
+hi IblWhitespace              guifg=#303032       gui=nocombine
+"hi IndentBlanklineSpaceCharBlankline    guifg=#303032       gui=nocombine
+hi IblScope           guifg=#606060       gui=nocombine
+
