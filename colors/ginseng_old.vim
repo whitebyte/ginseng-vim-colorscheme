@@ -7,8 +7,9 @@ endif
 
 let g:colors_name = "ginseng"
 
-let s:beige1 = '#ddd6c0'
-let s:beige2 = '#bbb490'
+let s:gbeige1 = '#ddd6c0'
+let s:gbeige2 = '#bbb490'
+let s:gbrown1 = '#141208'
 let s:ggray1 = '#aeaeae'
 let s:ggray2 = '#747474'
 let s:gorange1 = '#df8800'
@@ -17,7 +18,7 @@ let s:gred1 = '#aa0000'
 let s:gred2 = '#521800'
 let s:gsteel = '#8898b2'
 
-
+execute 'hi Normal  guifg=' . s:gbeige1   . ' gui=NONE'
 hi Normal           guifg=s:beige1   guibg=#141208   gui=NONE    "normal text
 hi NormalFloat      guifg=s:beige2   guibg=#303232   gui=NONE    "normal text in floating windows
 hi NormalNC         guifg=NONE      guibg=#080804   gui=NONE    "normal text in non-current windows
