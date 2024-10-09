@@ -120,7 +120,7 @@ hi LspDiagnosticsUnderlineWarning guifg=#ee9a00 gui=undercurl
 """ TreeSitter
 "hi link TSCurrentScope NormalInactive
 
-hi @tag guifg=#ddd6c0   guibg=#141208   gui=NONE
+hi @tag guifg=#8898b2   gui=NONE
 
 " VirtColumn
 hi VirtColumn       guifg=#303032
