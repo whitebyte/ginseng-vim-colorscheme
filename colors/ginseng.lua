@@ -30,7 +30,7 @@ local colors = {
 }
 
 hi('Normal',          { fg = colors.beige1, bg = colors.grey4 });
-hi('Comment',         { fg = colors.grey2 , cterm = { italic = true }});
+hi('Comment',         { fg = colors.grey2 , cterm = { italic = true }, gui = { italic = true }});
 
 hi('Search',          { fg = colors.orange1 });
 hi('IncSearch',       { fg = colors.yellow1 });
