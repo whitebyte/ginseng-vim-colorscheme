@@ -7,29 +7,40 @@ endif
 
 let g:colors_name = "ginseng"
 
-hi Normal           guifg=#ddd6c0   guibg=#141208   gui=NONE    "normal text
-hi NormalFloat      guifg=#bbb490   guibg=#303232   gui=NONE    "normal text in floating windows
+let s:beige1 = '#ddd6c0'
+let s:beige2 = '#bbb490'
+let s:ggray1 = '#aeaeae'
+let s:ggray2 = '#747474'
+let s:gorange1 = '#df8800'
+let s:gorange2 = '#ff9800'
+let s:gred1 = '#aa0000'
+let s:gred2 = '#521800'
+let s:gsteel = '#8898b2'
+
+
+hi Normal           guifg=s:beige1   guibg=#141208   gui=NONE    "normal text
+hi NormalFloat      guifg=s:beige2   guibg=#303232   gui=NONE    "normal text in floating windows
 hi NormalNC         guifg=NONE      guibg=#080804   gui=NONE    "normal text in non-current windows
 hi NonText          guifg=#666046   guibg=bg        gui=NONE    "'@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl!-EndOfBuffer|
-hi Folded           guifg=#aaaaaa   guibg=#3a3232   gui=italic  "line used for closed folds
-hi Comment          guifg=#747474                   gui=italic  "any comment
+hi Folded           guifg=s:ggray1   guibg=#3a3232   gui=italic  "line used for closed folds
+hi Comment          guifg=s:ggray2                  gui=italic  "any comment
 
-hi String           guifg=#aeaeae                   gui=NONE
-hi Character        guifg=#aeaeae                   gui=NONE
-hi Number           guifg=#df8800                   gui=NONE
-hi Float            guifg=#df8800                   gui=NONE
-hi Boolean          guifg=#ff9800                   gui=NONE
+hi String           guifg=s:ggray1
+hi Character        guifg=s:ggray1
+hi Number           guifg=s:gorange1
+hi Float            guifg=s:gorange1
+hi Boolean          guifg=s:gorange2
 
 hi Identifier       guifg=#998877                   gui=NONE
-hi Function         guifg=#df8800                   gui=NONE
+hi Function         guifg=s:gorange1
 
 hi Type             guifg=#ad5640                   gui=NONE
-hi Statement        guifg=#8898b2                   gui=NONE
-hi Keyword          guifg=#8898b2                   gui=NONE
-hi Constant         guifg=#ffa000                   gui=NONE
+hi Statement        guifg=s:gsteel                   gui=NONE
+hi Keyword          guifg=s:gsteel                   gui=NONE
+hi Constant         guifg=s:gorange2                   gui=NONE
 
-hi Error            guifg=#aa0000 guibg=#ffffff     gui=reverse cterm=reverse
-hi ErrorMsg         guifg=#aa0000 guibg=#ffffff     gui=reverse cterm=reverse
+hi Error            guifg=s:gred1 guibg=#ffffff     gui=reverse cterm=reverse
+hi ErrorMsg         guifg=s:gred1 guibg=#ffffff     gui=reverse cterm=reverse
 
 hi Special          guifg=#68a208                   gui=NONE
 hi PreProc          guifg=#bbaa88                   gui=NONE
