@@ -30,7 +30,7 @@ local colors = {
 }
 
 hi('Normal',          { fg = colors.beige1, bg = colors.grey4 });
-hi('Comment',         { fg = colors.grey2 });
+hi('Comment',         { fg = colors.grey2 , cterm = { italic = true }});
 
 hi('Search',          { fg = colors.orange1 });
 hi('IncSearch',       { fg = colors.yellow1 });
@@ -49,6 +49,7 @@ hi('Identifier',      { fg = colors.beige3 });
 hi('Function',        { fg = colors.orange1 });
 
 hi('CursorLine',      { bg = colors.black });
+hi('CursorLineNr',    { bg = colors.black });
 hi('CursorColumn',    { bg = colors.black });
 
 hi('@tag',            { fg = colors.steel });
