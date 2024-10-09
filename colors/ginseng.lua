@@ -55,3 +55,6 @@ hi('CursorColumn',    { bg = colors.black });
 hi('@tag',            { fg = colors.steel });
 hi('@tag.attribute',  { fg = colors.copper });
 
+hi('IblIndent',       { fg = colors.grey3 });
+hi('IblWhitespace',   { fg = colors.grey3 });
+hi('IblScope',        { fg = colors.grey2 });
