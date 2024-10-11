@@ -28,7 +28,14 @@ local colors = {
     yellow1 = "#ffffbb",
     copper  = "#ad5640",
     steel   = "#8898b2",
-    purple  = "#927292"
+    purple  = "#927292",
+    red1    = "#7a0400",
+    red2    = "#840400",
+    green   = "#344828",
+    blue1   = "#87ceeb",
+    blue2   = "#244486",
+    blue3   = "#222860",
+    white   = "#ffffff"
 }
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
@@ -65,12 +72,20 @@ hi('Constant',            { fg = colors.orange2 });
 
 hi('Identifier',          { fg = colors.beige3 });
 hi('Function',            { fg = colors.orange1 });
+hi('PreProc',             { fg = colors.beige2 });
 
-hi('Todo',                { fg = colors.purple, bg = colors.grey5 });
+hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
+hi('Error',               { fg = colors.red1, bg = colors.white });
+hi('ErrorMsg',            { fg = colors.red1, bg = colors.white });
 
 hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
 hi('CursorColumn',        { bg = colors.black });
+
+hi('DiffAdd',             { bg = colors.green });
+hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
+hi('DiffChange',          { bg = colors.blue2 });
+hi('DiffText',            { bg = colors.blue1 });
 
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
