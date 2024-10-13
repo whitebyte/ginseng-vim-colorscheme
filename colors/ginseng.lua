@@ -38,8 +38,6 @@ local colors = {
     white   = "#ffffff"
 }
 
-colors.blue1
-
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
 hi('Special',             { fg = colors.beige1, bg = colors.brown1 });
 hi('Title',               { fg = colors.orange1 });
