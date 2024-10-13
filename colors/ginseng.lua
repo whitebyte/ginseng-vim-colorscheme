@@ -58,7 +58,7 @@ hi('Visual',              { fg = colors.black, bg = colors.steel });
 
 hi('Pmenu',               { fg = colors.black, bg = colors.beige2 });
 hi('PmenuSel',            { fg = colors.black, bg = colors.orange2 });
-hi('PmenuThumb',          { bg = colors.grey1 });
+hi('PmenuThumb',          { fg = colors.grey1, bg = colors.black });
 
 hi('String',              { fg = colors.grey1 });
 hi('Character',           { fg = colors.grey1 });
@@ -98,7 +98,7 @@ hi('ColorColumn',         { fg = colors.grey5 });
 
 hi('DiagnosticError',     { fg = colors.red1 })
 hi('DiagnosticWarn',      { fg = colors.orange1 })
-hi('DiagnosticInfo',      { fg = colors.white })
+hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
 
