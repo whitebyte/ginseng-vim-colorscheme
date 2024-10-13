@@ -38,6 +38,8 @@ local colors = {
     white   = "#ffffff"
 }
 
+colors.blue1
+
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
 hi('Special',             { fg = colors.beige1, bg = colors.brown1 });
 hi('Title',               { fg = colors.orange1 });
@@ -57,8 +59,8 @@ hi('IncSearch',           { fg = colors.black, bg = colors.orange2 });
 hi('Visual',              { fg = colors.black, bg = colors.steel });
 
 hi('Pmenu',               { fg = colors.black, bg = colors.beige2 });
-hi('PmenuKind',           { fg = colors.grey4, bg = colors.beige2 });
-hi('PmenuSel',            { fg = colors.black, bg = colors.beige3 });
+hi('PmenuKind',           { fg = colors.grey3, bg = colors.beige2 });
+hi('PmenuSel',            { fg = colors.black, bg = colors.orange1 });
 hi('PmenuKindSel',        { link = 'PmenuSel' });
 hi('PmenuThumb',          { fg = colors.black, bg = colors.beige2 });
 hi('PmenuSbar',           { link = 'PmenuThumb' });
