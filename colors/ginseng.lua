@@ -94,7 +94,13 @@ hi('Delimiter',           { link = 'Special' })
 hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
 
-hi('ColorColumn',         { fg = colors.grey4 });
+hi('ColorColumn',         { fg = colors.grey5 });
+
+hi('DiagnosticError',     { fg = colors.red1 })
+hi('DiagnosticWarn',      { fg = colors.orange1 })
+hi('DiagnosticInfo',      { fg = colors.white })
+hi('DiagnosticHint',      { fg = colors.grey1 })
+hi('DiagnosticOk',        { fg = colors.grey1 })
 
 hi('@type.builtin',       { link = 'Type' });
 hi('@variable.builtin',   { link = 'Identifier' });
