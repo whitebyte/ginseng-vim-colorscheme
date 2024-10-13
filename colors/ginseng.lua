@@ -39,6 +39,7 @@ local colors = {
 }
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
+hi('Special',             { fg = colors.beige1 });
 hi('Title',               { fg = colors.orange1 });
 hi('Comment',             { fg = colors.grey2 , italic = true });
 hi('Folded',              { fg = colors.grey1, bg = colors.grey4 })
@@ -87,9 +88,18 @@ hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
 hi('DiffChange',          { bg = colors.blue2 });
 hi('DiffText',            { bg = colors.blue1 });
 
+hi('Tag',                 { link = 'Special' })
+hi('SpecialChar',         { link = 'Special' })
+hi('Delimiter',           { link = 'Special' })
+hi('SpecialComment',      { link = 'Special' })
+hi('Debug',               { link = 'Special' })
+
 hi('@type.builtin',       { link = 'Type' });
 hi('@variable.builtin',   { link = 'Identifier' });
-hi('@constant.builtin',    { link = 'Constant' });
+hi('@constant',           { link = 'Special' });
+hi('@constant.builtin',   { link = 'Constant' });
+hi('@comment',            { link = 'Comment' })
+hi('@punctuation',        { link = 'Delimiter' })
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { underline = false });
