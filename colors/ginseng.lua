@@ -39,7 +39,7 @@ local colors = {
 }
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
-hi('Special',             { fg = colors.beige1 });
+hi('Special',             { fg = colors.beige1, bg = colors.brown1 });
 hi('Title',               { fg = colors.orange1 });
 hi('Comment',             { fg = colors.grey2 , italic = true });
 hi('Folded',              { fg = colors.grey1, bg = colors.grey4 })
@@ -93,6 +93,8 @@ hi('SpecialChar',         { link = 'Special' })
 hi('Delimiter',           { link = 'Special' })
 hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
+
+hi('ColorColumn',         { fg = colors.grey4 });
 
 hi('@type.builtin',       { link = 'Type' });
 hi('@variable.builtin',   { link = 'Identifier' });
