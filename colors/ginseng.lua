@@ -31,6 +31,7 @@ local colors = {
     purple  = "#927292",
     red1    = "#7a0400",
     red2    = "#840400",
+    red3    = "#aa0000",
     green   = "#344828",
     blue1   = "#87ceeb",
     blue2   = "#244486",
@@ -79,8 +80,8 @@ hi('Function',            { fg = colors.orange1 });
 hi('PreProc',             { fg = colors.beige2 });
 
 hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
-hi('Error',               { fg = colors.red1, bg = colors.white });
-hi('ErrorMsg',            { fg = colors.red1, bg = colors.white });
+hi('Error',               { fg = colors.red3, bg = colors.black });
+hi('ErrorMsg',            { fg = colors.red3, bg = colors.black });
 
 hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
