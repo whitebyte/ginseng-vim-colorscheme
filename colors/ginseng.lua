@@ -89,7 +89,7 @@ hi('DiffText',            { bg = colors.blue1 });
 
 hi('@type.builtin',       { link = 'Type' });
 hi('@variable.builtin',   { link = 'Identifier' });
-hi('@contant.builtin',    { link = 'Constant' });
+hi('@constant.builtin',    { link = 'Constant' });
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { underline = false });
