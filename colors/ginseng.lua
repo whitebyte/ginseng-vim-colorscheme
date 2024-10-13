@@ -87,6 +87,9 @@ hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
 hi('DiffChange',          { bg = colors.blue2 });
 hi('DiffText',            { bg = colors.blue1 });
 
+hi('@type.builtin',       { link = 'Type' });
+hi('@variable.builtin',   { link = 'Identifier' });
+hi('@contant.builtin',    { link = 'Constant' });
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { underline = false });
