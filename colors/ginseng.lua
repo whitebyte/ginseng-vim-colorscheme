@@ -57,8 +57,11 @@ hi('IncSearch',           { fg = colors.black, bg = colors.orange2 });
 hi('Visual',              { fg = colors.black, bg = colors.steel });
 
 hi('Pmenu',               { fg = colors.black, bg = colors.beige2 });
-hi('PmenuSel',            { fg = colors.black, bg = colors.orange2 });
-hi('PmenuThumb',          { fg = colors.grey1, bg = colors.black });
+hi('PmenuSel',            { fg = colors.black, bg = colors.beige1 });
+hi('PmenuKind',           { fg = colors.grey1, bg = colors.beige3 });
+hi('PmenuKindSel',        { link = 'PmenuSel' });
+hi('PmenuThumb',          { fg = colors.grey1, bg = colors.beige3 });
+hi('PmenuSbar',           { link = 'PmenuThumb' });
 
 hi('String',              { fg = colors.grey1 });
 hi('Character',           { fg = colors.grey1 });
