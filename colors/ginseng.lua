@@ -14,10 +14,10 @@ end
 
 local colors = {
     black   = "#000000",
+    brown1  = "#141208",
     beige1  = "#ddd6c0",
     beige2  = "#bbb490",
     beige3  = "#998877",
-    brown1  = "#141208",
     grey1   = "#aeaeae",
     grey2   = "#747474",
     grey3   = "#565656",
@@ -80,8 +80,8 @@ hi('Function',            { fg = colors.orange1 });
 hi('PreProc',             { fg = colors.beige2 });
 
 hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
-hi('Error',               { fg = colors.red3, bg = colors.black });
-hi('ErrorMsg',            { fg = colors.red3, bg = colors.black });
+hi('Error',               { fg = colors.red3, bg = colors.white, reverse = true });
+hi('ErrorMsg',            { fg = colors.red3, bg = colors.white, reverse = true });
 
 hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
@@ -100,7 +100,7 @@ hi('Debug',               { link = 'Special' })
 
 hi('ColorColumn',         { fg = colors.grey5 });
 
-hi('DiagnosticError',     { fg = colors.red1 })
+hi('DiagnosticError',     { fg = colors.red3 })
 hi('DiagnosticWarn',      { fg = colors.orange1 })
 hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
