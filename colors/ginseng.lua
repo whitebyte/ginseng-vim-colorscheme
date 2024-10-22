@@ -90,7 +90,7 @@ hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
 hi('CursorColumn',        { bg = colors.black });
 
-hi('VertSplit',           { fg = colors.grey3, bg = colors.grey3 });
+hi('VertSplit',           { fg = colors.grey3 });
 hi('WinSeparator',        { link = 'VertSplit' })
 
 hi('DiffAdd',             { bg = colors.green });
