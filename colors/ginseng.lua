@@ -26,7 +26,7 @@ local colors = {
     grey6   = "#080804",
     orange1 = "#df8800",
     orange2 = "#ff9800",
-    yellow1 = "#ffffbb",
+    yellow1 = "#ffee99",
     copper  = "#ad5640",
     steel   = "#8898b2",
     purple  = "#927292",
@@ -89,6 +89,9 @@ hi('ErrorMsg',            { fg = colors.red3, bg = colors.white, reverse = true 
 hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
 hi('CursorColumn',        { bg = colors.black });
+
+hi('VertSplit',           { fg = colors.grey3, bg = colors.grey3 });
+hi('WinSeparator',        { link = 'VertSplit' })
 
 hi('DiffAdd',             { bg = colors.green });
 hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
