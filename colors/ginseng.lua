@@ -98,6 +98,8 @@ hi('Delimiter',           { link = 'Special' })
 hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
 
+hi('Directory',           { fg = colors.beige1 })
+
 hi('ColorColumn',         { fg = colors.grey5 });
 
 hi('DiagnosticError',     { fg = colors.red3 })
