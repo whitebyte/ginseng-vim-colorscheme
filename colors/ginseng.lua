@@ -118,6 +118,11 @@ hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { underline = false });
 
+-- IndentBlankLine
 hi('IblIndent',           { fg = colors.grey4 });
 hi('IblWhitespace',       { fg = colors.grey4 });
 hi('IblScope',            { fg = colors.grey3 });
+
+-- Fugitive
+hi('diffAdded',           { bg = colors.green });
+hi('diffRemoved',         { fg = colors.red1, bg = colors.red2 });
