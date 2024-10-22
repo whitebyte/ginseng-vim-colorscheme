@@ -23,6 +23,7 @@ local colors = {
     grey3   = "#565656",
     grey4   = "#303032",
     grey5   = "#181818",
+    grey6   = "#080804",
     orange1 = "#df8800",
     orange2 = "#ff9800",
     yellow1 = "#ffffbb",
@@ -40,7 +41,7 @@ local colors = {
 }
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
-hi('NormalNC',            { fg = colors.beige1, bg = colors.grey5 });
+hi('NormalNC',            { fg = colors.beige1, bg = colors.grey6 });
 hi('Special',             { fg = "NONE", bg = colors.brown1 });
 hi('Title',               { fg = colors.orange1 });
 hi('Comment',             { fg = colors.grey2 , italic = true });
