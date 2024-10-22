@@ -40,7 +40,8 @@ local colors = {
 }
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
-hi('Special',             { fg = colors.beige1, bg = colors.brown1 });
+hi('NormalNC',            { fg = colors.beige1, bg = colors.grey5 });
+hi('Special',             { fg = "NONE", bg = colors.brown1 });
 hi('Title',               { fg = colors.orange1 });
 hi('Comment',             { fg = colors.grey2 , italic = true });
 hi('Folded',              { fg = colors.grey1, bg = colors.grey4 })
