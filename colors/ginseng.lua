@@ -84,6 +84,9 @@ hi('PreProc',             { fg = colors.beige2 });
 
 hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
 hi('Error',               { fg = colors.red3, bg = colors.white, reverse = true });
+
+hi('MoreMsg',             { fg = colors.beige2, bold = true });
+hi('WarningMsg',          { fg = colors.orange2, bold = true });
 hi('ErrorMsg',            { fg = colors.red3, bg = colors.white, reverse = true });
 
 hi('CursorLine',          { bg = colors.black });
@@ -105,6 +108,7 @@ hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
 
 hi('Directory',           { fg = colors.beige1 })
+
 
 hi('ColorColumn',         { fg = colors.grey5 });
 
