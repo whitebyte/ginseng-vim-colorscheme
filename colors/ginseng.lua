@@ -118,6 +118,7 @@ hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
 
+-- TreeSitter
 hi('@type.builtin',       { link = 'Type' });
 hi('@variable.builtin',   { link = 'Identifier' });
 hi('@constant',           { link = 'Special' });
@@ -127,6 +128,10 @@ hi('@punctuation',        { link = 'Delimiter' })
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { underline = false });
+
+-- LSP
+hi('LspDiagnosticsUnderlineError',   { fg = colors.red3, undercurl = true });
+hi('LspDiagnosticsUnderlineWarning', { fg = colors.orange2, undercurl = true });
 
 -- IndentBlankLine
 hi('IblIndent',           { fg = colors.grey4 });
