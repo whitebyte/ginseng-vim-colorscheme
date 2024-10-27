@@ -77,6 +77,7 @@ hi('Type',                { fg = colors.copper });
 hi('Statement',           { fg = colors.steel });
 hi('Keyword',             { fg = colors.steel });
 hi('Constant',            { fg = colors.orange2 });
+hi('Structure',           { link = 'Type' })
 
 hi('Identifier',          { fg = colors.beige3 });
 hi('Function',            { fg = colors.orange1 });
@@ -124,6 +125,7 @@ hi('@type.builtin',       { link = 'Type' });
 hi('@variable',           { link = 'Identifier' });
 hi('@variable.builtin',   { link = 'Identifier' });
 hi('@variable.member',    { fg = colors.beige2 });
+hi('@variable.module',    { fg = colors.beige2 });
 hi('@constant',           { link = 'Special' });
 hi('@constant.builtin',   { link = 'Constant' });
 hi('@comment',            { link = 'Comment' })
