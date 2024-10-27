@@ -119,15 +119,18 @@ hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
 
 -- TreeSitter
+hi('@type',               { link = 'Type' });
 hi('@type.builtin',       { link = 'Type' });
+hi('@variable',           { link = 'Identifier' });
 hi('@variable.builtin',   { link = 'Identifier' });
+hi('@variable.member',    { fg = colors.beige2 });
 hi('@constant',           { link = 'Special' });
 hi('@constant.builtin',   { link = 'Constant' });
 hi('@comment',            { link = 'Comment' })
 hi('@punctuation',        { link = 'Delimiter' })
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
-hi('@string.special.url', { underline = false });
+hi('@string.special.url', { bold = true });
 
 -- LSP
 hi('LspDiagnosticsUnderlineError',   { fg = colors.red3, undercurl = true });
