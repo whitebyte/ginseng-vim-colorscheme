@@ -116,14 +116,14 @@ hi('Directory',           { fg = colors.beige1 })
 
 hi('ColorColumn',         { fg = colors.grey5 });
 
-hi('DiagnosticError',     { fg = colors.red3, bold = true })
+hi('DiagnosticError',     { fg = colors.red3 })
 hi('DiagnosticWarn',      { fg = colors.orange1 })
 hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
 
-hi('DiagnosticSignError', { link = 'DiagnosticError' })
-hi('DiagnosticSignWarn',  { link = 'DiagnosticWarn' })
+hi('DiagnosticSignError', { fg = colors.red3, bold = true })
+hi('DiagnosticSignWarn',  { fg = colors.orange1, bold = true })
 hi('DiagnosticSignInfo',  { link = 'DiagnosticInfo' })
 hi('DiagnosticSignHint',  { link = 'DiagnosticHint' })
 hi('DiagnosticSignOk',    { link = 'DiagnosticOk' })
