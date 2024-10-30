@@ -14,7 +14,7 @@ end
 
 local colors = {
     black   = "#000000",
-    brown1  = "#141208",
+    brown1  = "#121006",
     beige1  = "#ddd6c0",
     beige2  = "#bbb490",
     beige3  = "#998877",
@@ -29,7 +29,7 @@ local colors = {
     yellow1 = "#ffee99",
     copper  = "#ad5640",
     steel   = "#8898b2",
-    purple  = "#927292",
+    purple  = "#946894",
     red1    = "#7a0400",
     red2    = "#840400",
     red3    = "#aa0000",
