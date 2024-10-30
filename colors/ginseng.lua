@@ -97,6 +97,9 @@ hi('CursorColumn',        { bg = colors.black });
 hi('VertSplit',           { fg = colors.grey3 });
 hi('WinSeparator',        { link = 'VertSplit' })
 
+hi('Question',            { fg = colors.white })
+hi('QuickFixLine',        { fg = colors.white })
+
 hi('DiffAdd',             { bg = colors.green });
 hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
 hi('DiffChange',          { bg = colors.blue2 });
