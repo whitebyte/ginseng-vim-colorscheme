@@ -117,7 +117,7 @@ hi('Directory',           { fg = colors.beige1 })
 hi('ColorColumn',         { fg = colors.grey5 });
 
 hi('DiagnosticError',     { fg = colors.red3, bold = true })
-hi('DiagnosticWarn',      { fg = colors.orange1, bold = true })
+hi('DiagnosticWarn',      { fg = colors.orange1 })
 hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
@@ -138,6 +138,7 @@ hi('@variable.module',    { fg = colors.beige2 });
 hi('@constant',           { link = 'Special' });
 hi('@constant.builtin',   { link = 'Constant' });
 hi('@comment',            { link = 'Comment' })
+hi('@comment.error',      { fg = colors.red3 })
 hi('@punctuation',        { link = 'Delimiter' })
 hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
