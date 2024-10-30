@@ -14,7 +14,7 @@ end
 
 local colors = {
     black   = "#000000",
-    brown1  = "#121006",
+    brown1  = "#101006",
     beige1  = "#ddd6c0",
     beige2  = "#bbb490",
     beige3  = "#998877",
@@ -32,7 +32,7 @@ local colors = {
     purple  = "#946894",
     red1    = "#7a0400",
     red2    = "#840400",
-    red3    = "#aa0000",
+    red3    = "#af0000",
     green   = "#344828",
     blue1   = "#87ceeb",
     blue2   = "#244486",
@@ -116,11 +116,17 @@ hi('Directory',           { fg = colors.beige1 })
 
 hi('ColorColumn',         { fg = colors.grey5 });
 
-hi('DiagnosticError',     { fg = colors.red3 })
-hi('DiagnosticWarn',      { fg = colors.orange1 })
+hi('DiagnosticError',     { fg = colors.red3, bold = true })
+hi('DiagnosticWarn',      { fg = colors.orange1, bold = true })
 hi('DiagnosticInfo',      { fg = colors.steel })
 hi('DiagnosticHint',      { fg = colors.grey1 })
 hi('DiagnosticOk',        { fg = colors.grey1 })
+
+hi('DiagnosticSignError', { link = 'DiagnosticError' })
+hi('DiagnosticSignWarn',  { link = 'DiagnosticWarn' })
+hi('DiagnosticSignInfo',  { link = 'DiagnosticInfo' })
+hi('DiagnosticSignHint',  { link = 'DiagnosticHint' })
+hi('DiagnosticSignOk',    { link = 'DiagnosticOk' })
 
 -- TreeSitter
 hi('@type',               { link = 'Type' });
