@@ -97,7 +97,7 @@ hi('CursorColumn',        { bg = colors.black });
 hi('VertSplit',           { fg = colors.grey3 });
 hi('WinSeparator',        { link = 'VertSplit' })
 
-hi('Question',            { fg = colors.white })
+hi('Question',            { fg = colors.orange1 })
 hi('QuickFixLine',        { fg = colors.white })
 
 hi('DiffAdd',             { bg = colors.green });
