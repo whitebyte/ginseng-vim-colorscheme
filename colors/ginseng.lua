@@ -73,13 +73,13 @@ hi('Number',              { fg = colors.orange1 });
 hi('Float',               { fg = colors.orange1 });
 hi('Boolean',             { fg = colors.orange2 });
 
-hi('Type',                { fg = colors.copper });
+hi('Type',                { fg = colors.beige1 });
 hi('Statement',           { fg = colors.steel });
 hi('Keyword',             { fg = colors.steel });
 hi('Constant',            { fg = colors.orange2 });
 hi('Structure',           { link = 'Type' })
 
-hi('Identifier',          { fg = colors.beige1 });
+hi('Identifier',          { fg = colors.beige3 });
 hi('Function',            { fg = colors.orange1 });
 hi('PreProc',             { fg = colors.beige2 });
 
