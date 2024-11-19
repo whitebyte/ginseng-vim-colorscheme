@@ -73,7 +73,7 @@ hi('Number',              { fg = colors.orange1 });
 hi('Float',               { fg = colors.orange1 });
 hi('Boolean',             { fg = colors.orange2 });
 
-hi('Type',                { fg = colors.beige1 });
+hi('Type',                { fg = colors.copper });
 hi('Statement',           { fg = colors.steel });
 hi('Keyword',             { fg = colors.steel });
 hi('Constant',            { fg = colors.orange2 });
@@ -136,7 +136,7 @@ hi('@variable',           { link = 'Identifier' });
 hi('@variable.builtin',   { link = 'Identifier' });
 hi('@variable.member',    { fg = colors.beige2 });
 hi('@variable.module',    { fg = colors.beige1 });
-hi('@module',             { fg = colors.beige2 });
+hi('@module',             { fg = colors.copper });
 hi('@constant',           { link = 'Special' });
 hi('@constant.builtin',   { link = 'Constant' });
 hi('@comment',            { link = 'Comment' })
