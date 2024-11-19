@@ -33,7 +33,8 @@ local colors = {
     red1    = "#7a0400",
     red2    = "#840400",
     red3    = "#af0000",
-    green   = "#344828",
+    green1  = "#566a4a",
+    green2  = "#344828",
     blue1   = "#87ceeb",
     blue2   = "#244486",
     blue3   = "#222860",
@@ -100,7 +101,7 @@ hi('WinSeparator',        { link = 'VertSplit' })
 hi('Question',            { fg = colors.orange1 })
 hi('QuickFixLine',        { fg = colors.white })
 
-hi('DiffAdd',             { bg = colors.green });
+hi('DiffAdd',             { bg = colors.green2 });
 hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
 hi('DiffChange',          { bg = colors.blue2 });
 hi('DiffText',            { bg = colors.blue1 });
@@ -136,7 +137,7 @@ hi('@variable',           { link = 'Identifier' });
 hi('@variable.builtin',   { link = 'Identifier' });
 hi('@variable.member',    { fg = colors.beige2 });
 hi('@variable.module',    { fg = colors.beige1 });
-hi('@attribute',          { fg = colors.green });
+hi('@attribute',          { fg = colors.green1 });
 hi('@module',             { fg = colors.copper });
 hi('@constant',           { link = 'Special' });
 hi('@constant.builtin',   { link = 'Constant' });
