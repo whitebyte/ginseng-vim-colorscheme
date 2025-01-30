@@ -84,6 +84,11 @@ hi('Identifier',          { fg = colors.beige3 });
 hi('Function',            { fg = colors.orange1 });
 hi('PreProc',             { fg = colors.beige2 });
 
+hi('SpellBad',            { fg = colors.red3, undercurl = true });
+hi('SpellCap',            { fg = colors.orange2, undercurl = true });
+hi('SpellLocal',          { link = 'SpellCap' });
+hi('SpellRare',           { link = 'SpellCap' });
+
 hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
 hi('Error',               { fg = colors.red3, bg = colors.white, reverse = true });
 
@@ -113,7 +118,6 @@ hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
 
 hi('Directory',           { fg = colors.beige1 })
-
 
 hi('ColorColumn',         { fg = colors.grey5 });
 
