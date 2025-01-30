@@ -84,8 +84,8 @@ hi('Identifier',          { fg = colors.beige3 });
 hi('Function',            { fg = colors.orange1 });
 hi('PreProc',             { fg = colors.beige2 });
 
-hi('SpellBad',            { fg = colors.red3, undercurl = true });
-hi('SpellCap',            { fg = colors.orange2, undercurl = true });
+hi('SpellBad',            { guisp = colors.red3, undercurl = true });
+hi('SpellCap',            { guisp = colors.orange2, undercurl = true });
 hi('SpellLocal',          { link = 'SpellCap' });
 hi('SpellRare',           { link = 'SpellCap' });
 
