@@ -86,8 +86,8 @@ hi('PreProc',             { fg = colors.beige2 });
 
 hi('SpellBad',            { sp = colors.red3, undercurl = true });
 hi('SpellCap',            { sp = colors.orange2, undercurl = true });
+hi('SpellRare',           { sp = colors.yellow1, undercurl = true });
 hi('SpellLocal',          { link = 'SpellCap' });
-hi('SpellRare',           { link = 'SpellCap' });
 
 hi('Todo',                { fg = colors.purple, bg = colors.grey5, bold = true });
 hi('Error',               { fg = colors.red3, bg = colors.white, reverse = true });
