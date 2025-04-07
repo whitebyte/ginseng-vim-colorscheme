@@ -14,12 +14,12 @@ end
 
 local colors = {
     black   = "#000000",
-    brown1  = "#121208",
+    brown1  = "#141412",
     beige1  = "#ddd6c0",
     beige2  = "#bcb592",
     beige3  = "#9a8978",
     grey1   = "#aeaeae",
-    grey2   = "#686868",
+    grey2   = "#707070",
     grey3   = "#565656",
     grey4   = "#303032",
     grey5   = "#181818",
