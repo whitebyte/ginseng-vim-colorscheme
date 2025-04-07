@@ -34,7 +34,7 @@ local colors = {
     red2    = "#840400",
     red3    = "#af0000",
     green1  = "#388634",
-    green2  = "#365230",
+    green2  = "#304624",
     blue1   = "#87ceeb",
     blue2   = "#244486",
     blue3   = "#222860",
@@ -108,8 +108,8 @@ hi('QuickFixLine',        { fg = colors.white })
 
 hi('DiffAdd',             { bg = colors.green2 });
 hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
-hi('DiffChange',          { bg = colors.blue2 });
-hi('DiffText',            { bg = colors.blue1 });
+hi('DiffChange',          { bg = colors.blue3 });
+hi('DiffText',            { bg = colors.blue2 });
 
 hi('Tag',                 { link = 'Special' })
 hi('SpecialChar',         { link = 'Special' })
