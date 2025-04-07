@@ -36,7 +36,7 @@ local colors = {
     green1  = "#388634",
     green2  = "#204014",
     blue1   = "#87ceeb",
-    blue2   = "#163678",
+    blue2   = "#183882",
     blue3   = "#142456",
     white   = "#ffffff"
 }
