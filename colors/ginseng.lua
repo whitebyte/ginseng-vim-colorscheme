@@ -166,4 +166,4 @@ hi('diffAdded',           { bg = colors.green });
 hi('diffRemoved',         { fg = colors.red1, bg = colors.red2 });
 
 -- Marks
-hi('MarkSignHL',          { fg = colors.red2 });
+hi('MarkSignHL',          { fg = colors.red3 });
