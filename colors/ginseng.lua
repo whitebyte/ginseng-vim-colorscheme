@@ -167,4 +167,3 @@ hi('diffRemoved',         { fg = colors.red1, bg = colors.red2 });
 
 -- Marks
 hi('MarkSignHL',          { fg = colors.red2 });
---
