@@ -31,13 +31,13 @@ local colors = {
     steel   = "#8898b2",
     purple  = "#946894",
     red1    = "#7a0400",
-    red2    = "#840400",
+    red2    = "#800000",
     red3    = "#af0000",
     green1  = "#388634",
-    green2  = "#304624",
+    green2  = "#264620",
     blue1   = "#87ceeb",
-    blue2   = "#244486",
-    blue3   = "#222860",
+    blue2   = "#224284",
+    blue3   = "#182860",
     white   = "#ffffff"
 }
 
