@@ -37,7 +37,7 @@ local colors = {
     green2  = "#204014",
     blue1   = "#87ceeb",
     blue2   = "#204084",
-    blue3   = "#142456",
+    blue3   = "#122254",
     white   = "#ffffff"
 }
 
@@ -107,7 +107,7 @@ hi('Question',            { fg = colors.orange1 })
 hi('QuickFixLine',        { fg = colors.white })
 
 hi('DiffAdd',             { bg = colors.green2 });
-hi('DiffDelete',          { fg = colors.red1, bg = colors.red2 });
+hi('DiffDelete',          { fg = colors.red1, bg = colors.red1 });
 hi('DiffChange',          { bg = colors.blue3 });
 hi('DiffText',            { bg = colors.blue2 });
 
@@ -164,3 +164,7 @@ hi('IblScope',            { fg = colors.grey3 });
 -- Fugitive
 hi('diffAdded',           { bg = colors.green });
 hi('diffRemoved',         { fg = colors.red1, bg = colors.red2 });
+
+-- Marks
+hi('MarkSignHL',          { fg = colors.red2 });
+--
