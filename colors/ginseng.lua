@@ -43,7 +43,6 @@ local colors = {
 
 hi('Normal',              { fg = colors.beige1, bg = colors.brown1 });
 hi('NormalNC',            { fg = colors.beige1, bg = colors.grey6 });
-hi('NormalFloat',         { fg = colors.beige2, bg = colors.grey4 });
 hi('Special',             { fg = "NONE" });
 hi('Title',               { fg = colors.orange1 });
 hi('Comment',             { fg = colors.grey2 , italic = true });
@@ -51,7 +50,7 @@ hi('Folded',              { fg = colors.grey1, bg = colors.grey4 })
 
 hi('LineNr',              { fg = colors.beige2, bg = colors.black })
 
-hi('NormalFloat',         { fg = colors.beige2, bg = colors.brown1})
+hi('NormalFloat',         { fg = colors.beige2, bg = colors.grey4 });
 hi('FloatBorder',         { link = 'WinSeparator' })
 hi('FloatTitle',          { link = 'Title' })
 hi('FloatFooter',         { link = 'Title' })
