@@ -15,7 +15,7 @@ end
 local colors = {
     black   = "#000000",
     brown1  = "#161410",
-    beige1  = "#ddd6c0",
+    beige1  = "#dfd8c2",
     beige2  = "#bcb592",
     beige3  = "#9c8978",
     grey1   = "#aeaeae",
