@@ -117,6 +117,8 @@ hi('Delimiter',           { link = 'Special' })
 hi('SpecialComment',      { link = 'Special' })
 hi('Debug',               { link = 'Special' })
 
+hi('ModeMsg',             { fg = colors.orange2, bold = true })
+
 hi('Directory',           { fg = colors.beige1 })
 
 hi('ColorColumn',         { fg = colors.grey5 });
