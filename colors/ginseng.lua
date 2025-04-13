@@ -50,7 +50,7 @@ hi('Folded',              { fg = colors.grey1, bg = colors.grey4 })
 
 hi('LineNr',              { fg = colors.beige2, bg = colors.black })
 
-hi('NormalFloat',         { fg = colors.beige2, bg = colors.grey4 });
+hi('NormalFloat',         { fg = colors.beige2, bg = colors.grey6 });
 hi('FloatBorder',         { link = 'WinSeparator' })
 hi('FloatTitle',          { link = 'Title' })
 hi('FloatFooter',         { link = 'Title' })
