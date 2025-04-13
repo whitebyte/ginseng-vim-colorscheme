@@ -153,7 +153,8 @@ hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { bold = true });
 
 -- netrw
-hi('netrwDir',            { fg = colors.beige3 });
+hi('netrwPlain',          { fg = colors.beige2 });
+hi('netrwDir',            { fg = colors.orange1 });
 hi('netrwLink',           { fg = colors.grey1 });
 hi('netrwSymLink',        { fg = colors.grey1 });
 hi('netrwExe',            { fg = colors.beige2 });
