@@ -152,6 +152,19 @@ hi('@tag',                { fg = colors.steel });
 hi('@tag.attribute',      { fg = colors.copper });
 hi('@string.special.url', { bold = true });
 
+-- netrw
+hi('netrwDir',            { fg = colors.beige3 });
+hi('netrwLink',           { fg = colors.grey1 });
+hi('netrwSymLink',        { fg = colors.grey1 });
+hi('netrwExe',            { fg = colors.beige2 });
+hi('netrwComment',        { link = "Comment" });
+-- hi('netrwClassify',       { bold = true });
+-- hi('netrwList',           { bold = true });
+-- hi('netrwHelpCmd',        { bold = true });
+-- hi('netrwCmdSep ',        { bold = true });
+-- hi('netrwVersion',        { bold = true });
+
+
 -- LSP
 hi('LspDiagnosticsUnderlineError',   { fg = colors.red3, undercurl = true });
 hi('LspDiagnosticsUnderlineWarning', { fg = colors.orange2, undercurl = true });
