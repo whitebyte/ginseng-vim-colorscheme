@@ -96,7 +96,7 @@ hi('WarningMsg',          { fg = colors.orange2, bold = true });
 hi('ErrorMsg',            { fg = colors.red3, bg = colors.white, reverse = true });
 
 hi('CursorLine',          { bg = colors.black });
-hi('CursorLineNr',        { fg = colors.orange1, bg = colors.black });
+hi('CursorLineNr',        { fg = colors.white, bg = colors.black });
 hi('CursorColumn',        { bg = colors.black });
 
 hi('VertSplit',           { fg = colors.grey3 });
