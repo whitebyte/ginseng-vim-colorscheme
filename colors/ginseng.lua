@@ -157,14 +157,8 @@ hi('netrwPlain',          { fg = colors.beige2 });
 hi('netrwDir',            { fg = colors.orange1 });
 hi('netrwLink',           { fg = colors.grey1 });
 hi('netrwSymLink',        { fg = colors.grey1 });
-hi('netrwExe',            { fg = colors.beige2 });
+hi('netrwExe',            { fg = colors.beige1 });
 hi('netrwComment',        { link = "Comment" });
--- hi('netrwClassify',       { bold = true });
--- hi('netrwList',           { bold = true });
--- hi('netrwHelpCmd',        { bold = true });
--- hi('netrwCmdSep ',        { bold = true });
--- hi('netrwVersion',        { bold = true });
-
 
 -- LSP
 hi('LspDiagnosticsUnderlineError',   { fg = colors.red3, undercurl = true });
