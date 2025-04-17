@@ -139,7 +139,7 @@ hi('DiagnosticSignOk',    { link = 'DiagnosticOk' })
 -- TreeSitter
 hi('@type',               { link = 'Type' });
 hi('@type.builtin',       { link = 'Type' });
-hi('@variable',           { link = 'Identifier' });
+hi('@variable',           { fg = colors.beige3 });
 hi('@variable.builtin',   { link = 'Identifier' });
 hi('@variable.member',    { fg = colors.beige2 });
 hi('@variable.module',    { fg = colors.beige1 });
