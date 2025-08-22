@@ -100,7 +100,7 @@ hi('CursorLine',          { bg = colors.black });
 hi('CursorLineNr',        { fg = colors.black, bg = colors.grey1 });
 hi('CursorColumn',        { bg = colors.black });
 
-hi('VertSplit',           { fg = colors.grey3 });
+hi('VertSplit',           { fg = colors.grey4 });
 hi('WinSeparator',        { link = 'VertSplit' })
 
 hi('Question',            { fg = colors.orange1 })
